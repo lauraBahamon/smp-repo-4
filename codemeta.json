@@ -1,0 +1,39 @@
+
+    {
+        "@context": "https://w3id.org/codemeta/3.0",
+        "name": "Weather Analyser üöä",
+        "@type": "SoftwareSourceCode",
+        "applicationCategory": [
+            "Natural Sciences / Atmospheric Science and Oceanography",
+            "Natural Sciences / Water Research"
+        ],
+        "contributor": [          
+            {
+                "@id": "https://orcid.org/0000-0001-6807-5007",
+                "@type": "Person",
+                "familyName": "Walter",
+                "givenName": "David",
+                "affiliation": {
+                    "@id": "https://ror.org/0061msm67",
+                    "@type": "Organization",
+                    "name": "Max Planck Digital Library"
+                }
+            },
+            {
+                "@type": "Role",
+                "contributor": "https://orcid.org/0000-0001-6807-5007",
+                "roleName": "Research Data Management"
+            }, 
+            {
+                "@type": "Role",
+                "contributor": "https://orcid.org/0000-0001-6807-5007",
+                "roleName": "Data management R/Y Eugen Seibold, PANGAEA data editor"
+            }
+        ],
+        "license": [
+            "https://spdx.org/licenses/LGPL-3.0-only",
+            "https://spdx.org/licenses/MIT"
+        ],
+        "datePublished": "2027-04-30",
+        "programmingLanguage": "Python"
+    }
